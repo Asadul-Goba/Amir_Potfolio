@@ -137,7 +137,7 @@ button:focus {
 /* Main */
 .main {
   position: relative;
-  background: url(../img/main-bg.jpg) center no-repeat;
+  background: url(../img/main-bg3.jpg) center no-repeat;
   background-size: cover;
   height: 60em;
 }
@@ -148,10 +148,11 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: #000;
-  opacity: 0.5;
+  background: #fff;
+  opacity: 0.3;
 }
 .main-title {
+  text-shadow: 1px 1px 2px black;
   font-size: 3.5rem;
   font-weight: 600;
   color: #fff;
@@ -159,6 +160,7 @@ button:focus {
   letter-spacing: 2px;
 }
 .main-title span {
+  text-shadow: 1px 1px 2px black;
   font-size: 3rem;
   font-weight: 600;
   color: #DD5246;
@@ -183,7 +185,7 @@ button:focus {
 }
 .about .section-item {
   text-align: center;
-  color: #420A0A;
+  color: #921616;
 }
 .about .section-title {
   position: relative;
@@ -215,7 +217,7 @@ button:focus {
   right: 0;
 }
 .about p {
-  color: #420A0A;
+  color: #921616;
   font-size: 1.5rem;
 }
 /* Skills */
@@ -224,11 +226,11 @@ button:focus {
   background: url(../img/skills.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
+  color: #152230;
 }
 .skills-item ul {
   font-size: 1.3rem;
-  color: #fff;
+  color: #152230;
   font-weight: 400;
 }
 .skills-subtitle {
@@ -243,7 +245,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(158, 158, 158, 0.7) 0%, rgba(158, 158, 158, 0.7) 0%, rgba(66, 66, 66, 0.7) 52%, rgba(0, 0, 0, 0.7) 100%);
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 52%, rgba(255, 255, 255, 0.5) 100%);
 }
 .skills .section-item {
   text-align: center;
@@ -281,7 +283,7 @@ button:focus {
 /* Process */
 .process .section-item {
   text-align: center;
-  color: #420A0A;
+  color: #921616;
 }
 .process .section-title {
   position: relative;
@@ -528,7 +530,7 @@ button:focus {
 }
 .contacts .section-item {
   text-align: center;
-  color: #420A0A;
+  color: #921616;
 }
 .contacts .section-title {
   position: relative;
