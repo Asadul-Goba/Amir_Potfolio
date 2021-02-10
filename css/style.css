@@ -137,7 +137,7 @@ button:focus {
 /* Main */
 .main {
   position: relative;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 23%, rgba(255, 255, 255, 0.3) 50%), url(../img/main-bg3.jpg) center no-repeat;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 23%, rgba(255, 255, 255, 0.3) 50%), url(../img/main-bg3.jpg) left no-repeat;
   background-size: cover;
   height: 60em;
 }
@@ -174,7 +174,8 @@ button:focus {
 }
 .main-subtitle {
   font-size: 1.8rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   color: #DD5246;
   font-weight: bold;
   text-transform: uppercase;
@@ -219,7 +220,7 @@ button:focus {
   right: 0;
 }
 .about p {
-  color: #921616;
+  color: #3A1010;
   font-size: 1.5rem;
 }
 /* Skills */
@@ -232,7 +233,7 @@ button:focus {
 }
 .skills-item ul {
   font-size: 1.3rem;
-  color: #921616;
+  color: #3A1010;
   font-weight: 400;
 }
 .skills-subtitle {
