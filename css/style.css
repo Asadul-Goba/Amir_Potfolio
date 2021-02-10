@@ -174,8 +174,8 @@ button:focus {
 }
 .main-subtitle {
   font-size: 1.8rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   color: #DD5246;
   font-weight: bold;
   text-transform: uppercase;
@@ -324,7 +324,7 @@ button:focus {
   position: relative;
   width: 10rem;
   height: 10rem;
-  background: ##E78377;
+  background: #E78377;
   border-radius: 1rem;
   box-shadow: inset 0 0 40px 10px #DD5246;
 }
@@ -535,7 +535,7 @@ button:focus {
   border: 3px solid #DD5246;
 }
 .contacts {
-  color: #2C3E50;
+  color: #3A1010;
   font-family: 'Raleway', sans-serif;
 }
 .contacts .section-item {
@@ -604,11 +604,11 @@ button:focus {
 }
 .contacts-text {
   font-weight: 600;
-  color: #2C3E50;
+  color: #3A1010;
   font-size: 1.1rem;
 }
 .contacts a:hover {
-  color: #2C3E50;
+  color: #3A1010;
   text-decoration: none;
 }
 .footer {
