@@ -137,7 +137,7 @@ button:focus {
 /* Main */
 .main {
   position: relative;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 23%, rgba(255, 255, 255, 0.3) 50%), url(../img/main-bg3.jpg) left no-repeat;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9) 15%, rgba(255, 255, 255, 0.3) 50%), url(../img/main-bg3.jpg) left no-repeat;
   background-size: cover;
   height: 60em;
 }
@@ -163,7 +163,7 @@ button:focus {
   text-shadow: 0px 0px 0px black;
   font-size: 3rem;
   font-weight: 600;
-  color: #DD5246;
+  color: #FF2718;
 }
 .main-inner {
   font-family: 'Lato', sans-serif;
@@ -176,7 +176,7 @@ button:focus {
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  color: #DD5246;
+  color: #FF2718;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -248,7 +248,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 52%, rgba(255, 255, 255, 0.5) 100%);
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 52%, rgba(255, 255, 255, 0.6) 100%);
 }
 .skills .section-item {
   text-align: center;
