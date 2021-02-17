@@ -137,7 +137,7 @@ button:focus {
 /* Main */
 .main {
   position: relative;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 15%, rgba(0, 0, 0, 0.4) 50%), url(../img/main-bg.jpg) left no-repeat;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) 15%, rgba(0, 0, 0, 0.35) 50%), url(../img/main-bg.jpg) left no-repeat;
   background-size: cover;
   height: 60em;
 }
@@ -249,7 +249,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 52%, rgba(0, 0, 0, 0.8) 100%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 52%, rgba(0, 0, 0, 0.6) 100%);
 }
 .skills .section-item {
   text-align: center;
@@ -440,7 +440,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 52%, rgba(0, 0, 0, 0.8) 100%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 52%, rgba(0, 0, 0, 0.6) 100%);
 }
 .portfolio-photo {
   margin-bottom: 1.5rem;
