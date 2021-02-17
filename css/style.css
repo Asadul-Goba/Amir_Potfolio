@@ -230,7 +230,7 @@ button:focus {
   background: url(../img/skills.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
+  color: #FF2718;
 }
 .skills-item ul {
   font-size: 1.3rem;
@@ -328,9 +328,9 @@ button:focus {
   position: relative;
   width: 10rem;
   height: 10rem;
-  background: #E78377;
+  background: #DD5246;
   border-radius: 1rem;
-  box-shadow: inset 0 0 40px 10px #DD5246;
+  box-shadow: inset 0 0 40px 10px #791615;
 }
 .process .square-icon {
   font-size: 4.5rem;
@@ -354,11 +354,10 @@ button:focus {
   margin: 5rem 0;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  color: #FF2718;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 3px;
-  color: #DD5246;
+  color: #FF2718;
 }
 .process-slider img {
   margin-right: 2.2rem;
@@ -443,7 +442,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 52%, rgba(0, 0, 0, 0.7) 100%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 52%, rgba(0, 0, 0, 0.9) 100%);
 }
 .portfolio-photo {
   margin-bottom: 1.5rem;
@@ -586,7 +585,7 @@ button:focus {
   width: 10rem;
   height: 10rem;
   color: #fff;
-  background: #DD5145;
+  background: #791615;
   border-radius: 5rem;
   font-size: 4rem;
   display: flex;
@@ -619,6 +618,8 @@ button:focus {
 .footer {
   background-color: #171717;
   text-align: center;
+  margin-bottom: 0;
+  padding: 0;
 }
 .footer-icons {
   display: flex;
