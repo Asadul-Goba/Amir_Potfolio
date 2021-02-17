@@ -23,7 +23,7 @@ section {
   justify-content: space-between;
   width: 100%;
   height: 5rem;
-  background-color: rgba(221, 82, 70, 0.8);
+  background-color: rgba(146, 22, 22, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -137,7 +137,7 @@ button:focus {
 /* Main */
 .main {
   position: relative;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9) 15%, rgba(255, 255, 255, 0.3) 50%), url(../img/main-bg3.jpg) left no-repeat;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0.7) 50%), url(../img/main-bg.jpg) left no-repeat;
   background-size: cover;
   height: 60em;
 }
@@ -148,7 +148,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: #fff;
+  background: #000;
   opacity: 0.3;
 }
 .main-title {
@@ -167,7 +167,7 @@ button:focus {
 }
 .main-inner {
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   position: relative;
   padding-top: 18rem;
   text-align: center;
@@ -184,15 +184,16 @@ button:focus {
 /* About */
 .about {
   text-align: center;
+  background-color: #171717;
 }
 .about .section-item {
   text-align: center;
-  color: #921616;
+  color: #FFF;
 }
 .about .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
@@ -220,7 +221,7 @@ button:focus {
   right: 0;
 }
 .about p {
-  color: #3A1010;
+  color: #C12718;
   font-size: 1.5rem;
 }
 /* Skills */
@@ -229,11 +230,11 @@ button:focus {
   background: url(../img/skills.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #921616;
+  color: #fff;
 }
 .skills-item ul {
   font-size: 1.3rem;
-  color: #3A1010;
+  color: #fff;
   font-weight: 400;
 }
 .skills-subtitle {
@@ -248,7 +249,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 52%, rgba(255, 255, 255, 0.6) 100%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 52%, rgba(0, 0, 0, 0.9) 100%);
 }
 .skills .section-item {
   text-align: center;
@@ -257,14 +258,14 @@ button:focus {
 .skills .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
   text-align: center;
 }
 .skills .section-title-icon {
-  color: #921616;
+  color: #fff;
   position: relative;
   margin-bottom: 3rem;
   margin-left: auto;
@@ -286,14 +287,17 @@ button:focus {
   right: 0;
 }
 /* Process */
+.process {
+  background-color: #171717;
+}
 .process .section-item {
   text-align: center;
-  color: #921616;
+  color: #FFF;
 }
 .process .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
@@ -342,7 +346,7 @@ button:focus {
   line-height: 1.1;
   color: #DD5246;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   font-weight: 600;
   text-align: center;
 }
@@ -350,7 +354,7 @@ button:focus {
   margin: 5rem 0;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 3px;
@@ -404,14 +408,14 @@ button:focus {
 .portfolio .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
   text-align: center;
 }
 .portfolio .section-title-icon {
-  color: #921616;
+  color: #fff;
   position: relative;
   margin-bottom: 3rem;
   margin-left: auto;
@@ -439,7 +443,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 52%, rgba(255, 255, 255, 0.5) 100%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 52%, rgba(0, 0, 0, 0.7) 100%);
 }
 .portfolio-photo {
   margin-bottom: 1.5rem;
@@ -535,17 +539,18 @@ button:focus {
   border: 3px solid #DD5246;
 }
 .contacts {
-  color: #3A1010;
+  background-color: #171717;
+  color: #C12718;
   font-family: 'Raleway', sans-serif;
 }
 .contacts .section-item {
   text-align: center;
-  color: #921616;
+  color: #FFF;
 }
 .contacts .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #921616;
+  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
@@ -604,7 +609,7 @@ button:focus {
 }
 .contacts-text {
   font-weight: 600;
-  color: #3A1010;
+  color: #C12718;
   font-size: 1.1rem;
 }
 .contacts a:hover {
@@ -612,6 +617,7 @@ button:focus {
   text-decoration: none;
 }
 .footer {
+  background-color: #171717;
   text-align: center;
 }
 .footer-icons {
