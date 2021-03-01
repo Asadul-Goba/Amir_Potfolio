@@ -139,6 +139,7 @@ button:focus {
   position: relative;
   background: radial-gradient(circle, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) 15%, rgba(0, 0, 0, 0.35) 50%), url(../img/main-bg.jpg) left no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 60em;
 }
 .main:before {
@@ -167,7 +168,6 @@ button:focus {
 }
 .main-inner {
   font-family: 'Lato', sans-serif;
-  color: #FF2718;
   position: relative;
   padding-top: 18rem;
   text-align: center;
@@ -184,16 +184,15 @@ button:focus {
 /* About */
 .about {
   text-align: center;
-  background-color: #1B1B1B;
+  background-color: #fff;
 }
 .about .section-item {
   text-align: center;
-  color: #FF2718;
+  color: #791615;
 }
 .about .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
@@ -215,13 +214,13 @@ button:focus {
   display: block;
   width: 6.5rem;
   top: 30px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #791615;
 }
 .about .section-title-icon:before {
   right: 0;
 }
 .about p {
-  color: #fff;
+  color: #601615;
   font-size: 1.5rem;
 }
 /* Skills */
@@ -230,7 +229,7 @@ button:focus {
   background: url(../img/skills.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: #FF2718;
+  color: #FFF;
 }
 .skills-item ul {
   font-size: 1.3rem;
@@ -253,19 +252,18 @@ button:focus {
 }
 .skills .section-item {
   text-align: center;
-  color: #FF2718;
+  color: #FFF;
 }
 .skills .section-title {
   position: relative;
-  font-family: 'Lato', sans-serif;
-  color: #FF2718;
+  font-family: "Lato" sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
   text-align: center;
 }
 .skills .section-title-icon {
-  color: #FF2718;
+  color: #FFF;
   position: relative;
   margin-bottom: 3rem;
   margin-left: auto;
@@ -288,16 +286,15 @@ button:focus {
 }
 /* Process */
 .process {
-  background-color: #1B1B1B;
+  background-color: #fff;
 }
 .process .section-item {
   text-align: center;
-  color: #FF2718;
+  color: #791615;
 }
 .process .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
@@ -319,7 +316,7 @@ button:focus {
   display: block;
   width: 6.5rem;
   top: 30px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #791615;
 }
 .process .section-title-icon:before {
   right: 0;
@@ -344,7 +341,7 @@ button:focus {
   margin: 1rem 0;
   font-size: 1.3rem;
   line-height: 1.1;
-  color: #fff;
+  color: #601615;
   font-weight: 600;
   text-align: center;
 }
@@ -355,7 +352,7 @@ button:focus {
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 3px;
-  color: #FF2718;
+  color: #791615;
 }
 .process-slider img {
   margin-right: 2.2rem;
@@ -400,19 +397,18 @@ button:focus {
 }
 .portfolio .section-item {
   text-align: center;
-  color: #FF2718;
+  color: #FFF;
 }
 .portfolio .section-title {
   position: relative;
-  font-family: 'Lato', sans-serif;
-  color: #FF2718;
+  font-family: "Lato" sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
   text-align: center;
 }
 .portfolio .section-title-icon {
-  color: #FF2718;
+  color: #FFF;
   position: relative;
   margin-bottom: 3rem;
   margin-left: auto;
@@ -536,18 +532,17 @@ button:focus {
   border: 3px solid #7916156;
 }
 .contacts {
-  background-color: #1B1B1B;
-  color: #fff;
+  background-color: #fff;
+  color: #601615;
   font-family: 'Raleway', sans-serif;
 }
 .contacts .section-item {
   text-align: center;
-  color: #FF2718;
+  color: #791615;
 }
 .contacts .section-title {
   position: relative;
   font-family: 'Lato', sans-serif;
-  color: #FF2718;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.2rem;
@@ -569,7 +564,7 @@ button:focus {
   display: block;
   width: 6.5rem;
   top: 30px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #791615;
 }
 .contacts .section-title-icon:before {
   right: 0;
@@ -606,7 +601,7 @@ button:focus {
 }
 .contacts-text {
   font-weight: 600;
-  color: #fff;
+  color: #601615;
   font-size: 1.1rem;
 }
 .contacts a:hover {
@@ -614,7 +609,7 @@ button:focus {
   text-decoration: none;
 }
 .footer {
-  background-color: #1B1B1B;
+  background-color: #fff;
   text-align: center;
   margin-bottom: 0;
   padding: 0;
