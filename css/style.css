@@ -139,6 +139,8 @@ button:focus {
   position: relative;
   background: radial-gradient(circle, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) 15%, rgba(0, 0, 0, 0.35) 50%), url(../img/main-bg.jpg) left no-repeat;
   background-size: cover;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
   background-attachment: fixed;
   height: 60em;
 }
@@ -393,6 +395,8 @@ button:focus {
   position: relative;
   background: url(../img/skills.jpg) center no-repeat;
   background-size: cover;
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
   background-attachment: fixed;
 }
 .portfolio .section-item {
@@ -797,11 +801,18 @@ button:focus {
   .header-icons {
     margin-left: 2rem;
   }
+  .main {
+    background-size: auto;
+    -webkit-background-attachment: fixed;
+  }
   .main-title {
     font-size: 2.5rem;
   }
   .main-inner span {
     font-size: 2rem;
+  }
+  .skills {
+    background-size: auto;
   }
   .skills .row {
     margin-left: 0rem;
@@ -818,6 +829,9 @@ button:focus {
     position: absolute;
     top: 25%;
     left: 45%;
+  }
+  .portfolio {
+    background-size: auto;
   }
 }
 @media (max-width: 440px) {
