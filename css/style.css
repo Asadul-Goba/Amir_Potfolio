@@ -593,8 +593,11 @@ button:focus {
 .contacts-icon1:hover {
   background: #00aff0;
 }
+.contacts-icon2:hover {
+  background: #FF9800;
+}
 .contacts-icon3:hover {
-  background: #d93025;
+  background: #4D277A;
 }
 .contacts-icon4:hover {
   background: #43d854;
@@ -802,8 +805,7 @@ button:focus {
     margin-left: 2rem;
   }
   .main {
-    background-size: auto;
-    -webkit-background-attachment: fixed;
+    background-attachment: scroll;
   }
   .main-title {
     font-size: 2.5rem;
@@ -812,7 +814,7 @@ button:focus {
     font-size: 2rem;
   }
   .skills {
-    background-size: auto;
+    background-attachment: scroll;
   }
   .skills .row {
     margin-left: 0rem;
@@ -831,7 +833,7 @@ button:focus {
     left: 45%;
   }
   .portfolio {
-    background-size: auto;
+    background-attachment: scroll;
   }
 }
 @media (max-width: 440px) {
